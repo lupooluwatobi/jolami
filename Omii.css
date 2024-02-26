@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  background-color: hotpink;
+}
+.firstp, p {
+  text-align: center;
+}
+.p2 {
+  margin: 20px;
+}
+h2, h3 {
+  text-align: center;
+}
+hr {
+  width: 10%;
+  border: 3px dotted white;
+  border-bottom: none;
+}
+button {
+  margin: auto;
+}
+/*
+.row {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img {
+  height: 50%;
+  margin: 10px;
+  box-shadow: 10px 14px 20px 0px rgba(226,204,189,1);
+}
+.img-1{
+  background: url('jomi1.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+
+}
+.img-2{
+  background: url('jomi.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+}
+.img-3{
+  background: url('jomi2.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+
+}
+.img-4 {
+  background: url('jomi1.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+
+}
+@media screen and (min-width: 800px) {
+  .row{
+    height: 600px;
+  }
+
+  .img{
+    height: 50%;
+  }
+
+  .img-1,
+  .img-4 {
+    width: 24%;
+  }
+  .img-2,
+  .img-3 {
+    width: 70%;
+  }
+}*/
+
+
+div {
+  font-size: 0;
+}
+
+a {
+  font-size: 16px;
+  display: inline-block;
+  width: calc(50% - 4px);
+}
+
+a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+
+  a:nth-of-type(2n) {
+    margin-right: x;
+  }
+
+  a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+.link2 {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+button {
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: hotpink;
+}
+
+
+footer {
+  margin-top: 50px;
+  padding: 50px;
+  height: 100%;
+  background-color: lightpink;
+}
+.link {
+  padding-top: 80px;
+  margin: 50px;
+  text-align: center;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: grey;
+}
+.btn {
+  text-align: center;
+}
+.plink {
+  text-align: center;
+}
